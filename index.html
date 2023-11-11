@@ -1,0 +1,504 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CV - Saba Tanveer</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      
+
+         /* Mobile Styles */
+@media only screen and  (max-device-width: 414px) and (orientation: portrait) {
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        display: block;
+    }
+
+    .left-column,
+    .middle-column,
+    .right-column {
+        width: 100%;
+        padding: 0;
+    }
+
+    .profile-picture {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .hobby-list li,
+    .goal-list li {
+        background-color: #95C2FE !important;
+        padding: 5px 10px !important;
+        border-radius: 7px !important; 
+        margin: 3px !important;
+        border: 1px solid #4B6A93 !important;
+        color: #02224B !important;
+        font-family: 'Garamond', serif !important;
+         font-size: 12px !important; 
+
+    }
+    
+    .goal-section,
+    .life-ambition-section,
+    .project-list li {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    iframe {
+        width: 100%; 
+        height: 215px; 
+    }
+    video{
+ width: 100%; 
+        height: 215px; 
+    }
+
+}
+
+
+        /* Tablet Styles */
+        @media only screen and (min-width: 601px) and (max-width: 1024px) {
+           
+ body {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .left-column,
+    .middle-column,
+    .right-column {
+        width: 30%;
+        padding: 10px;
+    }
+
+    .profile-picture {
+        float: right;
+        margin: 0;
+    }
+.goal-section,
+    .life-ambition-section,
+    .project-list li {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+
+
+        }
+
+        /* Desktop Styles */
+        @media only screen and (min-width: 1025px) {
+
+
+        
+
+             body {
+        margin: 50px;
+        padding: 20px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .left-column,
+    .middle-column,
+    .right-column {
+        width: 25%;
+        padding: 10px;
+    }
+
+    .profile-picture {
+        float: right;
+        margin: 0;
+    }
+    .goal-section,
+    .life-ambition-section,
+    .project-list li {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 16px; 
+    }
+        }
+
+        body {
+            font-family: 'Oswald', sans-serif;
+            line-height: 1.6;
+            background-color: #ffff;
+            color: white;
+            padding: 20px;
+            margin: 50px;
+            border: 2px solid #02224B;
+        }
+         .container {
+            width: 80%;
+            margin: 0 auto;
+            background: #D5D8DC;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+            border: 3px solid #02224B;
+            padding: 30px;
+        }
+
+       header {
+            text-align: center;
+            position: sticky;
+            top: 0;
+            background-color:#809CC2;
+            padding: 10px 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            position: relative;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+         .profile-picture {
+            float: right;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-left: 160px;
+            margin-bottom: 20px;
+        }
+
+
+        .container {
+            display: flex;
+        }
+
+        .left-column {
+            width: 25%;
+            padding: 10px;
+        }
+
+        .middle-column {
+            width: 50%;
+            padding: 10px;
+        }
+
+        .right-column {
+            width: 25%;
+            padding: 10px;
+        }
+
+
+     
+         h1,
+        h2,
+        h3,
+        p {
+            color: #02224B;
+            text-align: center;
+            margin-bottom: 10px;
+            font-family: 'Garamond', serif;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+            border-radius: 10px;
+
+
+            overflow: hidden;
+        }
+
+        th,
+        td {
+            border: 1px solid #02224B;
+            padding: 12px;
+            text-align: left;
+             font-family: 'Garamond', serif;
+             color: #02224B;
+        }
+
+        th {
+             font-family: 'Garamond', serif;
+            background-color: #0E3C78;
+            color: white;
+        }
+
+        ul,
+        ol {
+            margin: 10px 0;
+            padding-left: 20px;
+            color: #02224B;
+            font-family: 'Garamond', serif;
+        }
+
+
+
+         .whatsapp-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+        }
+
+        .hobby-list,
+        .skill-list,
+        .goal-list {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+.hobby-list li,
+        .goal-list li {
+            background-color: #95C2FE;
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin: 50px;
+            border: 3px solid #4B6A93;
+            margin: 1px;
+            color:#02224B ;
+            font-family: 'Garamond', serif;
+        }
+       
+
+        .goal-section,
+        .life-ambition-section,
+        .project-list li 
+        {
+            background-color: #ADCCF4;
+
+            border-radius: 10px;
+            padding: 15px;
+
+            margin: 10px 0;
+            box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+        }
+
+        .life-ambition-section h2,
+        .goal-section h2 {
+            color: #02224B;
+            text-align: center;
+            margin-bottom: 10px;
+            
+            font-family: 'Garamond', serif;
+        }
+
+        .life-ambition-section p,
+        .goal-section p {
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Garamond', serif;
+        }
+        .left-column p {
+    margin: 10px 0;
+    font-family: 'Garamond', serif;
+    color: #02224B;
+}
+
+.left-column p i {
+    margin-right: 5px;
+}
+
+.left-column p a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.left-column p a:hover {
+    text-decoration: underline;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="=header-content">
+        <h1>Saba Tanveer</h1>
+
+        
+        <img class="profile-picture" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjLlJS2C2KD-fRoOykz8e5luqOtFFpGo_QQ&usqp=CAU" alt="Profile Picture">
+        <!-- Rest of your content goes here -->
+   
+    </header>
+
+    <div class="container">
+        <div class="left-column">
+             <h2>Professional Skills</h2>
+            <ul class="Skills-list">
+                 <li>Java programming</li>
+                  <li>Android development</li>
+            <li>Teaching</li>
+            <li>Web development</li>
+            </ul>
+
+               
+            </ul>
+        </div>
+
+        <div class="middle-column">
+
+             <h2>Educational History</h2>
+        <table>
+            <tr style="background-color: #0E3C78; color: white;">
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>10th Grade</td>
+                <td>Quaid-e-Azam School</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>12th Grade</td>
+                <td>Superior College</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>Bachelor of Science in Computer Science (BSCS)</td>
+                <td>University of Sialkot, Daska Campus</td>
+                <td>Continuing</td>
+            </tr>
+        </table>
+
+         <div class="goal-section">
+            <h2>Future Goals for Country</h2>
+            <ul class="goal-list">
+                <li>Global Collaboration and Diplomacy</li>
+                <li>Infrastructure Development</li>
+                <li>Economic Prosperity and Employment</li>
+            </ul>
+            <p>Contribute to society by implementing innovative solutions for sustainable development and progress.</p>
+        </div>
+         <h2>Hobbies</h2>
+        <ul class="hobby-list">
+            <li>Earning money</li>
+            <li>Hiking</li>
+            <li>Reading Books</li>
+            <li>Travelling</li>
+        </ul>
+
+          <div class="life-ambition-section">
+            <h2>Life Ambition</h2>
+            <p>"Empowering Lives through Technological Innovation: A Journey Towards Socio-Economic Transformation."</p>
+        </div>
+        <h2>Contributions to Country</h2>
+        <p>Contribute to the country through community service, entrepreneurship, and education, fostering economic and social development. Support environmental conservation and technological innovation, promoting sustainability and competitiveness on a global scale. Advocate for good governance, healthcare access, and cultural preservation, fostering a united and prosperous society for future generations.</p>
+        <h4 style="color: #0E3C78 "> utube video section: </h4>
+        <div class="video-container">
+             
+ <iframe width="650" height="345" src="https://www.youtube.com/embed/QzVBOTDCd9c" title="USKT Admission Ad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allowfullscreen></iframe>
+</div>
+   <h4 style="color: #0E3C78 "> video section:  </h4>
+ <video width="650" controls>
+                <source src="uskt.mp4" type="video/mp4">
+            </video>
+   <h4 style="color: #0E3C78 "> audio section:  </h4>
+             <audio controls width="560" style="color: green;">
+                <source src="usktt.mp3" type="audio/mp3">
+            </audio>
+        
+
+          
+        </div>
+
+     
+
+        <div class="right-column">
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li>Coronavirus Disease Detection App: This app detects and provides treatment for COVID-19 patients.</li>
+                <li>Learning Management App: Developed an application similar to my university's LMS.</li>
+                <li>Blood Pressure Detection App: Designed an app to detect a patient's blood pressure and provide a detailed report.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+       
+ 
+       
+    <h2>Saba Tanveer</h2>
+
+   
+   
+       
+         <h3>Contact Information</h3>
+    <p><i class="fa fa-map-marker"></i> <a href="https://www.google.com/maps?q=Your+Location" target="_blank">Daska</a></p>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6742.237271616769!2d74.37003318287772!3d32.335524540909134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391edb17ace8ae35%3A0x71d9e62ba0f9ee24!2sGhumman%20Town%20Daska%2C%20Sialkot%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1699465832481!5m2!1sen!2s" width="250" height="245" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p><i class="fa fa-phone"></i> (123) 456-7890</p>
+    <p><i class="fa fa-envelope"></i> 20101002-119@uskt.edu.pk</p>
+         
+       <h3>you can also follow me there</h3>
+
+    <div class="footer-icons" style="display: flex; justify-content: center;">
+
+
+       <a href="#"><img src="https://seeklogo.com/images/F/facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png"  alt="Facebook"
+        style="width: 40px; height: 40px;" ></a>
+
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUMUvW6klNAJ1WMTFtXHV0wDr11vMNlMwxFXkF9iMTYw&s" alt="Instagram" style="width: 40px; height: 40px;"></a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDXeEimDCRqiH-tOmcWhECLerYJgWHGOzkbGAZtI&s" alt="LinkedIn" style="width: 40px; height: 40px;"></a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh7a-ajAobxSyQ1Cockvn6ZMAr45J-_ndgbQJFMu8&s" alt="GitHub" style="width: 40px; height: 40px;"></a>
+    </div>
+    <div class="whatsapp-icon">
+            <a href="https://wa.me/1234567890">
+                <img src="  https://static-00.iconduck.com/assets.00/whatsapp-icon-2040x2048-8b5th74o.png" alt="WhatsApp" style="width: 60px; height: 60px;">
+            </a>
+        </div>
+</footer>
+
+</body>
+
+</html>
